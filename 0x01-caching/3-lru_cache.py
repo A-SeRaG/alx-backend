@@ -7,6 +7,9 @@ from base_caching import BaseCaching
 
 
 class LRUCache(BaseCaching):
+    """
+    Least Recently Used
+    """
     def __init__(self):
         """Initialize the class"""
         super().__init__()

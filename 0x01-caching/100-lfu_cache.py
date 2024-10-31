@@ -7,6 +7,9 @@ from base_caching import BaseCaching
 
 
 class LFUCache(BaseCaching):
+    """
+    Least frequently used
+    """
     def __init__(self):
         """Initialize the LFU cache"""
         super().__init__()

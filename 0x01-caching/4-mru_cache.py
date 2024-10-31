@@ -7,6 +7,9 @@ from base_caching import BaseCaching
 
 
 class MRUCache(BaseCaching):
+    """
+    Most-recently-used
+    """
     def __init__(self):
         """Initialize the class"""
         super().__init__()
